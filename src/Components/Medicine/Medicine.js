@@ -79,7 +79,7 @@ function Medicine(props) {
                                     <td>{orgData.quantity}</td>
                                     <td>{orgData.price}</td>
                                     <td>{orgData.expiry}</td>
-                                    {index === 4 ? <td rowSpan={orgData.length = "5"} > {ans} </td> : null}
+                                    {index === 4 ? <td rowSpan={orgData.length = "5"}> {ans} </td> : null}
                                 </tr>
                             )
                         })
