@@ -59,7 +59,7 @@ function Medicine(props) {
 
     return (
         <>
-            <h4 className='text-center'>Medicine</h4>
+            <h4 className='text-center'>Medicine Data</h4>
             <table border = "1" key={orgData}>
                 <tr>
                     <th>ID</th>
